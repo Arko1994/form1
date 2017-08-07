@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form name="callback_form" >
+            <label for="fio">Укажите Ваше имя <span class="required">*</span></label>
+            <input type="text" id="fio" name="fio" class="inp" value="" placeholder="Введите ФИО">
+            <label for="tel">Укажите Ваш номер телефона <span class="required">*</span></label>
+            <input type="tel" id="tel" name="tel" value="" placeholder="Введите номер телефона">
+            <label>
+                <input type="checkbox" name="agree">
+                Соглашаетесь ли Вы с обработкой данных?
+            </label>
+            <input class="button" type="submit" name="submit" value="Отправить"><input class="button" type="reset" name="reset" value="Очистить">
+            <p id="message"></p>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>

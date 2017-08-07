@@ -1,0 +1,42 @@
+body {
+    font-size: 21px;
+}
+.error {
+    border: 1px solid red;
+    outline-color: red;
+}
+
+input:not([type = "checkbox"]) {
+    font-size: 21px;
+    padding: 5px;
+    border: 1px solid grey;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+input.button {
+    display: inline-block;
+    width: 207px;    
+}
+input[type = "submit"] {
+    margin-right: 6px;
+}
+form[name="callback_form"] {
+    width: 420px;
+    margin: 150px auto;
+    padding: 30px;
+}
+
+.success {
+    color: darkgreen;
+}
+
+.fail, .required {
+    color: red;
+}
+
+#message {
+    text-align: center;
+}
+
